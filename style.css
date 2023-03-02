@@ -1,0 +1,59 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+header {
+
+    border-bottom: solid 1px;
+    height: 230px;
+    box-shadow: 5px 5px 5px 1px #d2ebf4;
+    border-color: #ffffff;
+    background: url("http://alistorietas.online.com.mialias.net/tareas/imagenes/banner_del_tiempo.jpg") no-repeat scroll 50% 50% #ffffdc;
+    
+}
+
+
+footer{
+   
+    height: 180px;
+    background-color:#d2ebf4;
+    box-shadow: 5px 5px 5px 1px #c2c7c9;
+}
+div#pie {
+    padding-top: 35px;
+    padding-left: 20px;
+}
+#firma{
+    font-size: x-small;
+    font-style: italic;
+}
+#formulario{
+    margin-left: 35%;
+    margin-right: 30%;
+    width: 500px;
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+@media only screen and (max-width: 670px){
+
+#formulario {
+
+  justify-content: left;
+  width: 100%;
+  margin-left: 5%;
+
+}
+div#cabecera {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+  height: 180px;
+}
+
+}
